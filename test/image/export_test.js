@@ -19,6 +19,7 @@ var DEFAULT_LIST = ['0', 'geo_first', 'gl3d_z-range', 'text_export'];
 // minimum satisfactory file size
 var MIN_SIZE = 100;
 
+
 /**
  *  Image export test script.
  *

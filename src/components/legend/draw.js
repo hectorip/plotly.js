@@ -375,6 +375,8 @@ function drawTexts(g, gd) {
 }
 
 function setupTraceToggle(g, gd) {
+    console.log(gd._fullLayout.legend)
+    if (!gd._fullLayout.legend.tracetoggle) return;
     var hiddenSlices = gd._fullLayout.hiddenlabels ?
         gd._fullLayout.hiddenlabels.slice() :
         [];
